@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:v2
 
 WORKDIR /project
 
