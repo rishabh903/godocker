@@ -7,4 +7,4 @@ COPY ./ .
 RUN go build hello.go
 EXPOSE 8000
 
-ENTRYPOINT ["./hello"]
+ENTRYPOINT ["./hello > hello.txt"]
