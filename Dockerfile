@@ -5,6 +5,6 @@ WORKDIR /project
 COPY ./ .
 
 RUN go build hello.go
-EXPOSE 8000
+#EXPOSE 8000
 
-ENTRYPOINT ["./hello > hello.txt"]
+#ENTRYPOINT ["./hello > hello.txt"]
